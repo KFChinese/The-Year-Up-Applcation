@@ -7,7 +7,7 @@ Future navigateToSecondScreen(context) async {
 }
 
 _YUSignup() async {
-  const url = "https://www.yearup.org/seize-opportunity/";
+  const url = "https://www.yearup.org/";
   if (await canLaunch(url)) {
     await launch(url);
   } else {
