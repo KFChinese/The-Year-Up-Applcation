@@ -1,7 +1,8 @@
 /*
 Application: Year Up 
 Developed by Larry Chiem
-Version 1.0
+Version 1.0 A
+
 
 
 [NOTES]
