@@ -231,7 +231,7 @@ Future<void> getApps() async {
 
                            InkWell(
                                   onTap:(){
-                                    _launchURL1();
+                                   // _launchURL1();
                                   } ,
                                   child: ListTile(
                       leading: Icon(Icons.school),
@@ -240,7 +240,7 @@ Future<void> getApps() async {
                   ),
                   InkWell(
                                   onTap:(){
-                                    _launchURL1();
+                                   // _launchURL1();
                                   } ,
                                   child: ListTile(
                       leading: Icon(Icons.move_to_inbox),
@@ -250,7 +250,7 @@ Future<void> getApps() async {
 
                 InkWell(
                                   onTap:(){
-                                    _launchURL1();
+                                  //  _launchURL1();
                                   } ,
                                   child: ListTile(
                       leading: Icon(Icons.class_),
@@ -290,7 +290,15 @@ Future<void> getApps() async {
                       title: Text("Announcements"),
                     ),
                   ),
-
+InkWell(
+                                  onTap:(){
+                                    
+                                  } ,
+                                  child: ListTile(
+                      leading: Icon(Icons.network_cell),
+                      title: Text("Social Media Outreach"),
+                    ),
+                  ),
                     
                   
                 InkWell(
@@ -376,7 +384,7 @@ Future<void> getApps() async {
                                   
                                   child: ListTile(
                       leading: Icon(Icons.settings),
-                      title: Text("settings"),
+                      title: Text("Settings"),
                     ),
                   ),
                   InkWell(
