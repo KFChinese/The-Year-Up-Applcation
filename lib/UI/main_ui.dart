@@ -374,11 +374,13 @@ Future<void> getApps() async {
     return Stack(
       
       children: <Widget>[
-          new Image.asset(
-                'assets/images/logo.png',
-                height:(_height / 3)+20,
-                fit: BoxFit.scaleDown,
-              ),
+          Center(
+                      child: new Image.asset(
+                  'assets/images/logo.png',
+                  height:(_height / 3)+20,
+                  fit: BoxFit.scaleDown,
+                ),
+          ),
 
             
         Container(
