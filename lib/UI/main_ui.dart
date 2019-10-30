@@ -394,14 +394,19 @@ Future<void> getApps() async {
                   opacity: 0.5,
                   child: Container(
                     margin: EdgeInsets.symmetric(vertical: 5),
-                    child: GestureDetector(
-                        onTap: () {
-                          scaffoldKey.currentState.openDrawer();
-                        },
-                        child: Image.asset(
-                          'assets/images/menubutton.png',
-                          height: _height / 50,
-                        )),
+                    child: WillPopScope(
+                      onWillPop: () async {
+                        return false;
+                      },
+                                          child: GestureDetector(
+                          onTap: () {
+                            scaffoldKey.currentState.openDrawer();
+                          },
+                          child: Image.asset(
+                            'assets/images/menubutton.png',
+                            height: _height / 50,
+                          )),
+                    ),
                   ),
                 ),
 
