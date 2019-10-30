@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
 
       debugShowCheckedModeBanner: false,
-      title: 'Year Up Alpha',
+      title: 'Year Up',
       theme: ThemeData(primaryColor: Colors.white),
       routes: <String, WidgetBuilder>{
         MAIN_UI: (BuildContext context) => LoginPage(),    // WIll use MainUI(), for other Stuff
