@@ -189,9 +189,17 @@ Future<void> getApps() async {
                             InkWell(
                               onTap:(){
                                    // _launchURL1();
-                                   print("This Worked!");
+                                    Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => userprofile()),
+                    );
+                                  
+                                   //print("This Worked!");
+                                   
                                   } ,
-                              child: new Image.asset("assets/images/logo.png",)),
+                            ),
+                              //child: new Image.asset("assets/images/logo.png",height: 250,width: 250,)),
+                            backgroundImage: ExactAssetImage('assets/images/profile-s.jpg'),
                             radius: 30,
                             
                           backgroundColor: Colors.white,
