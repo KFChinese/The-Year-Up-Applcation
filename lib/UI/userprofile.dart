@@ -1,16 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart'as UrlLauncher;
 
-
+ 
 
 class userprofile extends StatelessWidget {
   final String _fullName = "Studious Student";
   final String _status = "L&D Student";
   final String _bio =
-      "\"Hello, I am a Studious Student At year Up, I Would like to connect with you!\"";
+      "\"Hello, I am Studious Student At year Up, and I want to close the divide for everyone. I also Would like to connect with you!\"";
   final String _followers = "22";
   final String _posts = "DVC";
   final String _scores = "340";
 
+  
   Widget _buildCoverImage(Size screenSize) {
     return Container(
       height: screenSize.height / 2.6,
@@ -39,6 +41,7 @@ class userprofile extends StatelessWidget {
             width: 10.0,
           ),
         ),
+       
       ),
     );
   }
@@ -46,7 +49,7 @@ class userprofile extends StatelessWidget {
   Widget _buildFullName() {
     TextStyle _nameTextStyle = TextStyle(
       fontFamily: 'Roboto',
-      color: Colors.black,
+      color: Colors.white,
       fontSize: 28.0,
       fontWeight: FontWeight.w700,
     );
@@ -170,7 +173,11 @@ class userprofile extends StatelessWidget {
         children: <Widget>[
           Expanded(
             child: InkWell(
-              onTap: () => print("followed"),
+              onTap: () {
+                  UrlLauncher.launch('tel://9254789236');
+
+              },
+              
               child: Container(
                 height: 40.0,
                 decoration: BoxDecoration(
@@ -193,7 +200,7 @@ class userprofile extends StatelessWidget {
           Expanded(
             child: InkWell(
               onTap: () {
-
+                  UrlLauncher.launch('sms://9254789236');
                 
               },
               child: Container(
@@ -218,18 +225,39 @@ class userprofile extends StatelessWidget {
     );
   }
 
+
+
+
+
   @override
   Widget build(BuildContext context) {
     Size screenSize = MediaQuery.of(context).size;
     return Scaffold(
+      appBar: AppBar(
+        leading: new IconButton(
+               icon: new Icon(Icons.arrow_back, color: Colors.black),
+               onPressed: () => Navigator.of(context).pop(),
+              ), 
+              title: Text("Profile"),
+              centerTitle: true,
+            ),
+             
+                  
+                   
+                   
+      
+                    
+        
+
       body: Stack(
+        
         children: <Widget>[
-          _buildCoverImage(screenSize),
+          _buildCoverImage(screenSize/1.2),
           SafeArea(
             child: SingleChildScrollView(
               child: Column(
                 children: <Widget>[
-                  SizedBox(height: screenSize.height / 6.4),
+                  SizedBox(height: screenSize.height / 11.5),
                   _buildProfileImage(),
                   _buildFullName(),
                   _buildStatus(context),
@@ -247,5 +275,7 @@ class userprofile extends StatelessWidget {
         ],
       ),
     );
+
+
   }
 }

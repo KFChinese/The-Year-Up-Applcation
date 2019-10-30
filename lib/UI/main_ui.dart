@@ -10,6 +10,7 @@ import'package:flutter_YUApp/UI/internshipservices.dart';
 import'package:flutter_YUApp/UI/announcements.dart';
 import'package:flutter_YUApp/UI/refferral.dart';
 import'package:flutter_YUApp/UI/userprofile.dart';
+import'package:flutter_YUApp/UI/settings.dart';
 //import'package:flutter_YUApp/UI/contacts.dart';
 
 
@@ -33,7 +34,7 @@ _launchURL1() async {
 _launchURL2() async {
   const url = "https://login.live.com";
   if (await canLaunch(url)) {
-    await launch(url,forceSafariVC: false,universalLinksOnly: true);
+    await launch(url,forceSafariVC: true,universalLinksOnly: true);
   } else {
     throw 'Could not launch $url';
   }
@@ -68,6 +69,15 @@ _yupro() async {
 
 _Office365() async {
   const url = "http://TinyURL.com/yyr86ovk";
+  if (await canLaunch(url)) {
+    await launch(url,forceSafariVC: true,universalLinksOnly: true);
+  } else {
+    throw 'Could not launch $url';
+  }
+} 
+
+_linkedin() async {
+  const url = "http://linkedin.com";
   if (await canLaunch(url)) {
     await launch(url,forceSafariVC: true,universalLinksOnly: true);
   } else {
@@ -356,7 +366,19 @@ Future<void> getApps() async {
                       title: Text("About"),
                     ),
                   ),
-
+                  InkWell(
+                  onTap:(){/*
+                  Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => settings()),
+                    );*/
+                                  } ,
+                                  
+                                  child: ListTile(
+                      leading: Icon(Icons.settings),
+                      title: Text("settings"),
+                    ),
+                  ),
                   InkWell(
                   onTap:(){
                   Navigator.push(
@@ -572,7 +594,7 @@ Future<void> getApps() async {
                   onTap: (){
                     //Navigator.of(context).pushNamed(BIKES_ITEM_LIST);
                     
-                 
+                 _linkedin();
                     print('Routing to Bikes item list');
                   },
                   child: Image.asset(

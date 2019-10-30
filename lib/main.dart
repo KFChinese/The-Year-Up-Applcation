@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
 
       debugShowCheckedModeBanner: false,
       title: 'Year Up Alpha',
-      theme: ThemeData(primaryColor: Colors.yellowAccent[200]),
+      theme: ThemeData(primaryColor: Colors.white),
       routes: <String, WidgetBuilder>{
         MAIN_UI: (BuildContext context) => LoginPage(),    // WIll use MainUI(), for other Stuff
         splash_screen: (BuildContext context) => AnimatedSplashScreen(), //Startup 
