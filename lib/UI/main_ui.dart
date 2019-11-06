@@ -39,6 +39,15 @@ _launchURL2() async {
     throw 'Could not launch $url';
   }
 } 
+//Zoom Launcher 
+_Zoom() async {
+  const url = "https://login.live.com";
+  if (await canLaunch(url)) {
+    await launch(url,forceSafariVC: true,universalLinksOnly: true);
+  } else {
+    throw 'Could not launch $url';
+  }
+} 
 //Slack
 _slack() async {
   const url = "https://slack.onelink.me/FQG3?af_sub1=%2Flp%2Fthree&af_slk_web_endpoint=%2Flp%2Fthree&af_slk_web_visitor_uid=.dg1qqqivxtlk4odiqxdpyln4y&utm_source=google&utm_medium=ppc&utm_campaign=d_ppc_google_us_en_brand-hv&utm_term=%2Bslack&cvosrc=ppc.google.%2Bslack&pid=google_ppc&c=d_ppc_google_us_en_brand-hv&af_keywords=%2Bslack";
