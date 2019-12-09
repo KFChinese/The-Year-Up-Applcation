@@ -153,8 +153,3 @@ Android 6.0 and Above: ```Work In Progress```
     * Added Referal Perks
 * 0.0.1
     * Work in progress with README.MD
-
-## Repos that Help Power This Project
-* [Canvas LMS By Instructure Android](<https://github.com/instructure/canvas-android>)
-* [Canvas LMS By Instructure iOS](<https://github.com/instructure/canvas-ios>)
-* [Canvas LMS By Instructure Web](<https://github.com/instructure/canvas-lms>)
