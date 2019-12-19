@@ -1,20 +1,22 @@
 
+
+
 ![Year Up](https://www.gcmgrosvenor.com/wp-content/uploads/yearup_1.png)
 
-# The Year Up Application [Ver. 0.0.2]
+# The Year Up Application [Ver. 0.0.3]
 
 
 > The Application That Makes Year Up a Competitive and Modern, 21th Century Non-Profit Organization.
 
 
-This Application is Solely built for Year Up Applicants, Students, Interns, Alunmi, Coaches, Teachers and Staff that is an 
+This Application is Solely built for Year Up Applicants, Students, Interns, Alumni, Coaches, Teachers and Staff that is an 
 All-in-One, Reactive Web and Mobile Application. This application is intended to automate, streamline and creating convenience for all users.
 
 ## This Application includes: 
  
 ### The Current Year Up Website:
   * The Year Up Website Built on WordPress
-  * Intergration with Seemless Mobile Application with Flutter/React Native for iOS and Android
+  * Integration with Seamless Mobile Application with Flutter/React Native for iOS and Android
 
 ### For Interested Students:
    * The Interested Form to sign up on Web + Mobile
@@ -31,7 +33,7 @@ All-in-One, Reactive Web and Mobile Application. This application is intended to
       
       
 ### Conditionally Accepted Students:
-   * Acceptence Letter & Notification
+   * Acceptance Letter & Notification
    * Drug Test Screening Time & Date
    * Orientation Week schedule
    * What You Need to Succeed
@@ -45,14 +47,14 @@ All-in-One, Reactive Web and Mobile Application. This application is intended to
    * List of Books Needed
    * Chat (See Below)
    * ETO Used
-   * Achievments for Student of the Week
+   * Achievements for Student of the Week
    * Dress Code Attire
    * Feedback 
    * Tips & Instructional Videos on Learning & Development
    * YU Events 
-   * Offiste Events
+   * Offsite Events
    * YU Student OutReach ( Only Available for Students that are currently in)
-   * Commities
+   * Committees
    * Merch Store (See Below)   
    * Homework/Deliverables (Student Powered by Canvas)
      * Details on Assignment
@@ -68,7 +70,7 @@ All-in-One, Reactive Web and Mobile Application. This application is intended to
   * Same Features above for L&D Including:
       * Mentor Access Via Messaging
       * Linkedin Premium Access
-      * Gratuation Tracker
+      * Graduation Tracker
       * Time Sheets
       
       
@@ -102,7 +104,7 @@ All-in-One, Reactive Web and Mobile Application. This application is intended to
    
   
 ### Staff:
-  * Reccomendations
+  * Recommendations
   * Giving Out Infractions
   * Merch Store (See Below)
   * Chat (See Below)
@@ -122,17 +124,17 @@ All-in-One, Reactive Web and Mobile Application. This application is intended to
  * Wearables
 
 ### Referrals (Student & Staff)
- * $100 Student Referal
+ * $100 Student Referral
  	* Goes to L&D
- * $(Undisclosed Ammount)
+ * $(Undisclosed Amount)
 
 ### Donations
 
 ### Extra Features:
    * SSO/SAML 2.0 Login With Cohorts
-   * Algorithms that Enhance Student's Intrests and Highlights Watchtime with Interactions in Mobile and Web based Suite.
+   * Algorithms that Enhance Student's Interests and Highlights Watchtime with Interactions in Mobile and Web based Suite.
    * Easy to Maintain Code, Written in Python, JavaScript and HTML.
-   * Intergration with Microsoft Office 365 (Outlook, Calandears, Etc.) 
+   * Integration with Microsoft Office 365 (Outlook, Calendars, Etc.) 
    * More To Come!
 
 
@@ -148,13 +150,10 @@ Android 6.0 and Above: ```Work In Progress```
 
 
 ## Release History
+* 0.0.3 
+    * Fixed Readme.md
 * 0.0.2
     * Fixed version History 
-    * Added Referal Perks
+    * Added Referral Perks
 * 0.0.1
     * Work in progress with README.MD
-
-## Repos that Help Power This Project
-* [Canvas LMS By Instructure Android](<https://github.com/instructure/canvas-android>)
-* [Canvas LMS By Instructure iOS](<https://github.com/instructure/canvas-ios>)
-* [Canvas LMS By Instructure Web](<https://github.com/instructure/canvas-lms>)
