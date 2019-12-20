@@ -8,7 +8,7 @@
 
 <img src="https://j.gifs.com/ROXLx0.gif" width="222" height="480" />
 
-# The Year Up Application [Ver. 0.0.3]
+# The Year Up Application [Ver. 0.0.4]
 
 
 > The Application That Makes Year Up a Competitive and Modern, 21th Century Non-Profit Organization.
@@ -155,6 +155,8 @@ Android 6.0 and Above: ```Work In Progress```
 
 
 ## Release History
+* 0.0.4
+    * Added & Fixed Gif
 * 0.0.3 
     * Fixed Readme.md
 * 0.0.2
