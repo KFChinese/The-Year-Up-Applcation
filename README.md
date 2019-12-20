@@ -1,6 +1,3 @@
-#
-
-
 <img src="https://www.gcmgrosvenor.com/wp-content/uploads/yearup_1.png" width="900" height="319" />
 
 # App Preview:
