@@ -5,7 +5,7 @@
 
 Made With 
 
-![gif] (https://j.gifs.com/ROXLx0.gif)
+![gif](https://j.gifs.com/ROXLx0.gif)
 
 # The Year Up Application [Ver. 0.0.3]
 
