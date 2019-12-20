@@ -3,7 +3,7 @@
 
 ![Year Up](https://www.gcmgrosvenor.com/wp-content/uploads/yearup_1.png)
 
-Made With <imn
+<blockquote class="imgur-embed-pub" lang="en" data-id="7NKqtcu"><a href="//imgur.com/7NKqtcu"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 <img src="https://j.gifs.com/ROXLx0.gif" width="222" height="481" />
 
 # The Year Up Application [Ver. 0.0.3]
