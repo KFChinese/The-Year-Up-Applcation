@@ -4,7 +4,7 @@
 ![Year Up](https://www.gcmgrosvenor.com/wp-content/uploads/yearup_1.png)
 
 Preview:
-<img src="https://j.gifs.com/ROXLx0.gif" width="40" height="40" />
+<img src="https://j.gifs.com/ROXLx0.gif" width="222" height="480" />
 
 # The Year Up Application [Ver. 0.0.3]
 
