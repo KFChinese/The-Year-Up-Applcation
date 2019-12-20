@@ -3,8 +3,8 @@
 
 ![Year Up](https://www.gcmgrosvenor.com/wp-content/uploads/yearup_1.png)
 
-
-<img src="https://j.gifs.com/ROXLx0.gif" width="443" height="960" />
+Made With <imn
+<img src="https://j.gifs.com/ROXLx0.gif" width="222" height="481" />
 
 # The Year Up Application [Ver. 0.0.3]
 
