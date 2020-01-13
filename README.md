@@ -1,4 +1,4 @@
-<img src="https://www.gcmgrosvenor.com/wp-content/uploads/yearup_1.png" width="400" height="150" />
+[<img src="https://www.gcmgrosvenor.com/wp-content/uploads/yearup_1.png" width="400" height="150" />](https://www.yearup.org/)
 
 # The Year Up Application [Ver. 0.0.5]
 
