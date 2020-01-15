@@ -2,6 +2,8 @@
 
 # The Year Up Application [Ver. 0.0.5]
 
+[![Build Status](https://travis-ci.com/KFChinese/The-Year-Up-Applcation.svg?branch=master)](https://travis-ci.com/KFChinese/The-Year-Up-Applcation)
+
 > The Application That Makes Year Up a Competitive and Modern, 21th Century Non-Profit Organization.
 
 
