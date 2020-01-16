@@ -1,4 +1,6 @@
 matrix:
+  before_install:
+  - chmod +x build.sh
   include:
     # Job 1) Run analyzer
     - os: linux
