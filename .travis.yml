@@ -67,6 +67,7 @@ matrix:
         - export ANDROID_HOME=`pwd`/android-sdk
         - export PATH=`pwd`/flutter/bin:`pwd`/flutter/bin/cache/dart-sdk/bin:$PATH
       script:
+        - chmod +x ./gradlew build connectedCheck
         - ./script/incremental_build.sh build-examples --apk
         - ./script/incremental_build.sh java-test  # must come after apk build
     # Job 3.2) Build example APKs and run Java tests, shard 2/2
@@ -90,6 +91,7 @@ matrix:
         - export ANDROID_HOME=`pwd`/android-sdk
         - export PATH=`pwd`/flutter/bin:`pwd`/flutter/bin/cache/dart-sdk/bin:$PATH
       script:
+        - chmod +x ./gradlew build connectedCheck
         - ./script/incremental_build.sh build-examples --apk
         - ./script/incremental_build.sh java-test  # must come after apk build
     # Job 4.1) Build example IPAs, shard 1/2
@@ -116,6 +118,7 @@ matrix:
         - ./script/before_build_ipas.sh
         - export PATH=`pwd`/flutter/bin:`pwd`/flutter/bin/cache/dart-sdk/bin:$PATH
       script:
+        - chmod +x ./gradlew build connectedCheck
         - ./script/incremental_build.sh build-examples --ipa
 
 cache:
