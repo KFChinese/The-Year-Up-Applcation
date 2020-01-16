@@ -103,6 +103,7 @@ matrix:
         - ./script/before_build_ipas.sh
         - export PATH=`pwd`/flutter/bin:`pwd`/flutter/bin/cache/dart-sdk/bin:$PATH
       script:
+        - chmod +x ./gradlew build connectedCheck
         - ./script/incremental_build.sh build-examples --ipa
     # Job 4.2) Build example IPAs, shard 2/2
     - os: osx
