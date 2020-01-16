@@ -22,7 +22,7 @@ Application Developed with
  
 ### Updates to The Current Year Up Website:
   * The Year Up Student Portal Built on Flutter Web
-  * Integration with Seamless Mobile Application with Flutter/React Native for iOS and Android
+  * Integration with Seamless Mobile Application with Flutter/Dartlang for iOS and Android
 
 ### For Interested Students:
    * The Interested Form to sign up on Web + Mobile
