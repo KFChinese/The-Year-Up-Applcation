@@ -41,6 +41,7 @@ jobs:
 before_script:
   - git clone https://github.com/flutter/flutter.git -b $FLUTTER_VERSION
   - ./flutter/bin/flutter doctor
+  - chmod +x gradlew
   - chmod +x tool/travis_*_script.sh
 
 cache:
