@@ -37,11 +37,11 @@ jobs:
       env: FLUTTER_VERSION=beta
   allow_failures:
     - env: FLUTTER_VERSION=beta
-
+before_install:
+  - chmod +x gradlew
 before_script:
   - git clone https://github.com/flutter/flutter.git -b $FLUTTER_VERSION
   - ./flutter/bin/flutter doctor
-  - chmod +x gradlew
   - chmod +x tool/travis_*_script.sh
 
 cache:
