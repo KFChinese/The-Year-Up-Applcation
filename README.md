@@ -1,11 +1,6 @@
-<img src="https://www.gcmgrosvenor.com/wp-content/uploads/yearup_1.png" width="900" height="319" />
+[<img src="https://www.gcmgrosvenor.com/wp-content/uploads/yearup_1.png" width="400" height="150" />](https://www.yearup.org/)
 
-# App Preview:
-
-
-<img src="https://j.gifs.com/ROXLx0.gif" width="222" height="480" />
-
-# The Year Up Application [Ver. 0.0.4]
+# The Year Up Application [Ver. 0.0.5]
 
 
 > The Application That Makes Year Up a Competitive and Modern, 21th Century Non-Profit Organization.
@@ -14,36 +9,46 @@
 This Application is Solely built for Year Up Applicants, Students, Interns, Alumni, Coaches, Teachers and Staff that is an 
 All-in-One, Reactive Web and Mobile Application. This application is intended to automate, streamline and creating convenience for all users.
 
-## This Application includes: 
+Application Developed with 
+[<img src="https://flutter.dev/assets/flutter-lockup-4cb0ee072ab312e59784d9fbf4fb7ad42688a7fdaea1270ccf6bbf4f34b7e03f.svg" /> ](https://flutter.dev/)
+
+[![Build Status](https://travis-ci.com/KFChinese/The-Year-Up-Applcation.svg?branch=master)](https://travis-ci.com/KFChinese/The-Year-Up-Applcation)
+
+# App Preview:
+
+<img src="https://j.gifs.com/ROXLx0.gif" width="222" height="480" />
+
+## This Application will include: 
  
-### The Current Year Up Website:
-  * The Year Up Website Built on WordPress
-  * Integration with Seamless Mobile Application with Flutter/React Native for iOS and Android
+### Updates to The Current Year Up Website:
+  * The Year Up Student Portal Built on Flutter Web
+  * Integration with Seamless Mobile Application with Flutter/Dartlang for iOS and Android
 
 ### For Interested Students:
    * The Interested Form to sign up on Web + Mobile
    * An Upload Manager on Web + Mobile for Necessary Files to Getting accepted into Year Up
-   * Advanced Algorithms to Focus Students that are intrested with Program and dedicate time for them
-   * The Application Status (Being Accepted/Denied)
+   * Advanced Algorithms to Focus Students that are intrested with Program and dedicate time for Students (Abandoned Cart)
+   * The Application Status itself (From Being Accepted/Denied)
       * Dress Attire 
       * Time for Interview Screen
-      * Letter on #YourYonYU
-   * Things to bring to Onsite
+      * The Letter on #YourYonYU
+      
+   * Items to bring to Onsite
       * Official Transcript From HS
       * Unofficial Transcript From College (If Applicable)
       * Picture ID (Govt. Issued) 
       
       
-### Conditionally Accepted Students:
+### For Conditionally Accepted Students:
    * Acceptance Letter & Notification
    * Drug Test Screening Time & Date
    * Orientation Week schedule
-   * What You Need to Succeed
+   * What You Need to Succeed 
    
    
  
-### Current Students in L&D Phase:
-   * Contract PDF 
+### For Current Students in L&D Phase:
+   * EZ Access to Contract  
    * Stipend Pay (API Via ADP)
    * List of Current Teachers
    * List of Books Needed
@@ -55,7 +60,7 @@ All-in-One, Reactive Web and Mobile Application. This application is intended to
    * Tips & Instructional Videos on Learning & Development
    * YU Events 
    * Offsite Events
-   * YU Student OutReach ( Only Available for Students that are currently in)
+   * YU Student Ambassadors ( Only Available for Students that are currently Ambassadors )
    * Committees
    * Merch Store (See Below)   
    * Homework/Deliverables (Student Powered by Canvas)
@@ -68,10 +73,10 @@ All-in-One, Reactive Web and Mobile Application. This application is intended to
      * EPIC Plan
      * Letter Below 90 Points   
       
-### Current Students in Internship:
+### For Current Students in Internship:
   * Same Features above for L&D Including:
-      * Mentor Access Via Messaging
-      * Linkedin Premium Access
+      * Mentor Access Via Live Messaging
+      * Linkedin Premium Access through Okta SSO
       * Graduation Tracker
       * Time Sheets
       
@@ -102,7 +107,6 @@ All-in-One, Reactive Web and Mobile Application. This application is intended to
  * Tests
  * Posts
  * Announcements
- * (Powered by Canvas LMS)
    
   
 ### Staff:
@@ -110,7 +114,7 @@ All-in-One, Reactive Web and Mobile Application. This application is intended to
   * Giving Out Infractions
   * Merch Store (See Below)
   * Chat (See Below)
-  * ADP Access (API)
+  * ADP Access (ADP's API)
   
 ### Chat Messenger With:
  * Coaches
@@ -133,9 +137,10 @@ All-in-One, Reactive Web and Mobile Application. This application is intended to
 ### Donations
 
 ### Extra Features:
-   * SSO/SAML 2.0 Login With Cohorts
-   * Algorithms that Enhance Student's Interests and Highlights Watchtime with Interactions in Mobile and Web based Suite.
-   * Easy to Maintain Code, Written in Python, JavaScript and HTML.
+   * Travis CI Intergration
+   * SSO/SAML 2.0 With Okta Login With Cohorts
+   * Advanced Algorithms that Enhance Student's Interests, Highlights, with Interactions in Mobile and Web based Suite.
+   * Easy to Maintain Code, Written in DartLang for Front End, Backend TBA.
    * Integration with Microsoft Office 365 (Outlook, Calendars, Etc.) 
    * More To Come!
 
@@ -145,13 +150,15 @@ All-in-One, Reactive Web and Mobile Application. This application is intended to
 
 Web: ```Work In Progress```
 
-iOS 11 and Above: ```Work In Progress```
+iOS 10 and Above: ```Work In Progress```
 
 Android 6.0 and Above: ```Work In Progress```
 
 
 
 ## Release History
+* 0.0.5 
+    * Adding Credits to Application & Various Fixes to README.MD
 * 0.0.4
     * Added & Fixed Gif
 * 0.0.3 
