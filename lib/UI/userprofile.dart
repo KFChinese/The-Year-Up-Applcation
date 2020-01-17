@@ -5,7 +5,7 @@ import 'package:url_launcher/url_launcher.dart'as UrlLauncher;
 
 class userprofile extends StatelessWidget {
   final String _fullName = "Studious Student";
-  final String _status = "L&D Student";
+  final String _status = "Fkin Student";
   final String _bio =
       "\"Hello, I am Studious Student At year Up, and I want to close the divide for everyone. I also Would like to connect with you!\"";
   final String _followers = "22";
