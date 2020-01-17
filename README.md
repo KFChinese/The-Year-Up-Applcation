@@ -10,7 +10,7 @@ This Application is Solely built for Year Up Applicants, Students, Interns, Alum
 All-in-One, Reactive Web and Mobile Application. This application is intended to automate, streamline and creating convenience for all users.
 
 Application Developed with 
-[<img src="https://flutter.dev/assets/flutter-lockup-4cb0ee072ab312e59784d9fbf4fb7ad42688a7fdaea1270ccf6bbf4f34b7e03f.svg" /> ](https://flutter.dev/)
+[<img src="https://flutter.dev/assets/flutter-lockup-c13da9c9303e26b8d5fc208d2a1fa20c1ef47eb021ecadf27046dea04c0cebf6.png" /> ](https://flutter.dev/)
 
 [![Build Status](https://travis-ci.com/KFChinese/The-Year-Up-Applcation.svg?branch=master)](https://travis-ci.com/KFChinese/The-Year-Up-Applcation)
 
