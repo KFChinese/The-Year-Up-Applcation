@@ -1,58 +1,14 @@
-os: linux
-dist: trusty
+sudo: false
 
-addons:
-  apt:
-    sources:
-      - ubuntu-toolchain-r-test
-    packages:
-      - libstdc++6
-      - fonts-noto
+language: dart
 
-git:
-  depth: 3
+dart:
+- stable
+- dev
 
-android:
-  components:
-    - build-tools-28.0.3
-    - android-28
-
-jobs:
-  include:
-    - name: "Android tests, stable channel"
-      language: android
-      script: ./tool/travis_android_script.sh
-      env: FLUTTER_VERSION=stable
-    - name: "Flutter tests, stable channel"
-      language: ruby
-      script: ./tool/travis_flutter_script.sh
-      env: FLUTTER_VERSION=stable
-    - name: "Android tests, beta channel"
-      language: android
-      script: ./tool/travis_android_script.sh
-      env: FLUTTER_VERSION=beta
-    - name: "Flutter tests, beta channel"
-      language: ruby
-      script: ./tool/travis_flutter_script.sh
-      env: FLUTTER_VERSION=beta
-  allow_failures:
-    - env: FLUTTER_VERSION=beta
-before_install:
-  - chmod +x gradlew
-before_script:
-  - git clone https://github.com/flutter/flutter.git -b $FLUTTER_VERSION
-  - ./flutter/bin/flutter doctor
-  - chmod +x tool/travis_*_script.sh
-
-cache:
-  directories:
-    - $HOME/shared/.pub-cache
-
-notifications:
-  email:
-    lartard2+github@gmail.com
-
-# Building master alone means that we don't run two builds for
-# each pull request.
-branches:
-  only: [master]
+script:
+  - pub get
+  - pub run test -r expanded
+  - dartfmt -n --set-exit-if-changed lib/
+  - dartanalyzer --fatal-infos --fatal-warnings .
+  - pub run main
