@@ -1,7 +1,7 @@
 /*
 Application: Year Up 
 Developed by Larry Chiem
-Version 1.0 A
+Version 1.0 Alpha
 
 
 
@@ -11,6 +11,7 @@ Code is not optimized yet, Is 3/4th's broken and will be worked on to make sure 
 
 What's Working:
 App Redirectory To External URL 
+Minimum viable product
 
 */
 
